@@ -30,7 +30,9 @@ platform :ios do
         output_name:"KMHealth-AdHoc",
         clean:"true",
         include_bitcode: true,
-        workspace: "PupeyReach.xcworkspace",
+        workspace: "PupeyReach.xcworkspace",’
+        #自动管理证书的时候，Xcode 9及以上没有权限获取钥匙串里面的证书，必须加上这个才能打包成功
+        #export_xcargs: "-allowProvisioningUpdates"
     )
 
     #firim(firim_api_token: "xxxx")
