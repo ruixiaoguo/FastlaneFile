@@ -1,0 +1,20 @@
+for_lane :ApStore do
+  app_identifier "mfczs"
+  apple_id "jia4330_66295@163.com"
+end
+
+for_lane :AdHoc do
+  app_identifier "embedded"
+  apple_id "jia4330_66295@163.com"
+end
+
+for_lane :Development do
+  app_identifier "mfczs"
+  apple_id "jia4330_66295@163.com"
+end
+
+for_lane :Enterprise do
+  app_identifier "mfczs"
+  apple_id "jia4330_66295@163.com"
+  team_id "KGD3X2BRR5"
+end
